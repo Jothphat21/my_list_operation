@@ -11,7 +11,8 @@ my_list.append(40)
 my_list.insert(1, 15)
 
 # 4. Extend my_list with another list: [50, 60, 70]
-my_list.extend([50, 60, 70])
+another_list = [50, 60,70]
+my_list.extend(another_list)
 
 # 5. Remove the last element from my_list
 my_list.pop()
@@ -25,3 +26,4 @@ print("Index of 30:", index_of_30)
 
 # Print the final list to check the result
 print("Final list:", my_list)
+
